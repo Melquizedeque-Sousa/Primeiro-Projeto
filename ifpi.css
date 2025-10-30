@@ -1,0 +1,74 @@
+body {
+    background-color: green;
+
+}
+header, main, footer{
+    max-width: 855px;
+}
+header, .container, main .container, footer .container{
+    max-width: white;
+    overflow: auto;
+}
+header{
+    background: white;
+    overflow: auto;
+}
+header h1{
+    float: left;
+    width: 570px;
+}
+main{
+    background-color: white;
+    overflow: auto;
+}
+main .left{
+    float: left;
+    width: 285px;
+}
+main .right{
+    float: right;
+    width: 285px;
+}
+footer .left{
+    float: left;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+li{
+    float: right;
+}
+li a, .dropbtn{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+li a:hover, .dropdown:hover .dropbtn{
+    background-color: rgb(247, 82, 82);
+}
+li.dropbtn{
+    display: inline-block;
+}
+.dropbtn-content{
+    display:none; position: absolute; background-color: #f9f9f9;
+    min-width: 160px; box-shadow: 0px 8px 16px 0px rhba(0,0,0,0.2);
+    z-index: -1;
+}
+.dropbtn-content a{
+    color: green; padding: 12px 16px; text-decoration: none;
+    display: block; text-align: left;
+}
+.dropbtn-content a:hover{
+    background-color: white;
+
+}
+.dropdown:hover .dropbtn-content{
+    display: block;
+}
