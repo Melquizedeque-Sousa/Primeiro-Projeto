@@ -72,3 +72,17 @@ li.dropbtn{
 .dropdown:hover .dropbtn-content{
     display: block;
 }
+img{
+    height: 200px;
+    width: auto;
+}
+.form {
+    background-color: rgba(255, 255, 255, 0.418);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

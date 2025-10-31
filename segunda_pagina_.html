@@ -11,7 +11,7 @@
     <header>
         <ul>
             <li><a href="segunda_pagina_.html">Efetuar Matrícula</a></li>
-            <li><a href=" home">Como ingressar</a></li>
+            <li><a href="como_ingressar.html">Como ingressar</a></li>
             <li class="dropdown">
                 <a class="dropbtn">Cursos</a>
                 <div class="dropdown-content">
@@ -23,23 +23,28 @@
                     <br>
                     <a href="#">Mineração</a>
                 </div>
-            <li><a href="#home">Início</a></li>
+            <li><a href="index.html">Início</a></li>
             </li>
         </ul>
     </header>
     <main>
-        <div class="container">
-            <div class="left">
-                <h2>Estude na melhor escola!</h2>
-                <p>O IFPI é uma escola de educação superior, básica e profissional, pluricurricular e multicampi.</p>
-                <p>Possui várias sedes que proporcionam educação de qualidade em diferentes regiões do piauí</p>
-                <h2>No IFPI você terá acesso a:</h2>
-                <ul>
-                    <li>Excelente infraestrutura.</li>
-                    <li>Professores qualificados.</li>
-                    <li>Laboratório para práticas.</li>
-                </ul>
-            </div>
+        <div class="form">
+            <form action="#" >
+                <label for="Nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="nome" required>
+                <br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="email" required>
+                <br>
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" placeholder="senha" required>
+                <br>
+                <label for="data_nascimento">Data</label>
+                <input type="date" name="data_nascimento" id="data_nascimento" placeholder="data_nascimento" required>
+                <br>
+                <input type="submit" value="Selecionar">
+            </form>
+        </div>
             <div class="right">
                 <img src="img/logo-ifpi.png" alt="Logo IFPI">
             </div>
